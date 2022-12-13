@@ -1,12 +1,11 @@
 // VARIABLES
-
-const modal = document.querySelector(".modal"),
-        btn = document.querySelector(".btn"),
-        close = document.querySelector(".close");
+const modal = document.querySelector(".modal")
+const btn = document.querySelector(".btn")
+const close = document.querySelector(".close")
 
 btn.addEventListener("click", openModal);
 close.addEventListener("click", closeModal);
-modal.addEventListener("click", openModal);
+modal.addEventListener("click", closeModal);
 
 // OPEN MODAL
 function openModal(e) {

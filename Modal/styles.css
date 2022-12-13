@@ -116,3 +116,8 @@ img {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.close {
+  float: right;
+  font-size: 2rem;
+}
